@@ -19,11 +19,22 @@ def lfm2cfm():
     cfm=lfm*area
     print(cfm)
 
-def main():
-    global cfm, lfm, area
-    print("Please select the conversion you want to do:")
-    print("(1) Convert CFM to LFM")
-    print(
-    mode=int(input("
-
 #Run the main stuff
+while True:
+    print("Please select from the options below:")
+    print("(1) Convert CFM to LFM")
+    print("(2) Convert LFM to CFM")
+    print("(3) Quit")
+    mode=int(input("Selection: "))
+
+    if mode==1:
+        cfm2lfm()
+
+    elif mode==2:
+        lfm2cfm()
+
+    elif mode==3:
+        exit()
+
+    else:
+        print("Invalid option, please try again")
