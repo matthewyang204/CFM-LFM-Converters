@@ -22,7 +22,7 @@ AppUpdatesURL={#MyAppURL}
 DefaultDirName={pf}\{#MyAppName}
 DisableProgramGroupPage=yes
 OutputBaseFilename=setup32
-SetupIconFile=C:\Documents and Settings\Matthew Yang\My Documents\Downloads\CFM-LFM-Converters\icon.ico
+SetupIconFile=icon.ico
 Compression=lzma
 SolidCompression=yes
 
@@ -34,7 +34,7 @@ Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{
 Name: "quicklaunchicon"; Description: "{cm:CreateQuickLaunchIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked; OnlyBelowVersion: 0,6.1
 
 [Files]
-Source: "C:\Documents and Settings\Matthew Yang\My Documents\Downloads\CFM-LFM-Converters\dist\CFM LFM Converter.exe"; DestDir: "{app}"; Flags: ignoreversion
+Source: "dist\CFM LFM Converter.exe"; DestDir: "{app}"; Flags: ignoreversion
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Icons]
